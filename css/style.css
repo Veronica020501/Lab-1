@@ -1,1 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
+.intro{
+    width: 100%;
+}
+
+article{
+    width: 30%;
+    display: inline-block;
+    margin-right: 3%;
+    vertical-align: top;
+}
+
+footer{
+    width: 100%;
+    margin-top: 24px;
+    text-align: center;
+}
+
+@media (max-width:768px){
+    article{
+        width: 100%;
+    }
+}
