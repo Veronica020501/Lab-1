@@ -8,42 +8,46 @@
     width: 100%;
 }
 
-header{
-    text-align: center;
-    padding: 20px;
+h2, p{
+    padding: 10px;
 }
 
-.cards-container{
+header{
+    text-align: center;
+    padding: 10px;
+    background-color: rgb(185, 177, 177);
+    width: 100%;
+}
+
+.cards-container article{
     width: 100%;
     display: block;
-    margin-bottom:16px;
+    margin-bottom: 16px;
 }
 
 img{
     border: black 1px solid;
+    width: 100%;
 }
 
 footer{
     width: 100%;
     margin-top: 24px;
     text-align: center;
+    background-color: rgb(185, 177, 177);
+    padding: 10px;
 }
 
 @media (min-width:768px){
-    .cards-container{
-        width: 100%;
-        display: flex;
-        justify-content: space-between;
-    }
-    article{
+    .cards-container article{
         width: 30%;
         display: inline-block;
         margin-right: 3%;
         vertical-align: top;
+        padding: 10px;
     }
-    img{
-        width: 300px;
-        height: 200px;
+    article img{
+        width: 100%;
         border: black 1px solid;
         margin-top: 10px;
     }
